@@ -96,6 +96,12 @@ body{
 }
 
 
+@media screen and (max-width: 480px) {
+    .card_Container .card {
+        width: 100px;
+        height:80px;/* 1 card per row */
+    }
+}
 
 
 .card .imbBx, .imbBx img{
