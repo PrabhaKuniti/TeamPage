@@ -84,9 +84,7 @@ body{
 
 /* Media query for small screens */
 @media screen and (max-width: 768px) {
-    .card_Container {
-        justify-content: center;
-    }
+   
     
     .card_Container .card {
         width: 150px;
