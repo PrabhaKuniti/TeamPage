@@ -1,187 +1,403 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color:#f8f6f3;
-    padding: 20px;
-}
+    <title>Team Section</title>
+    <link rel="stylesheet" href="team.css">
+</head>
+<body>
 
-.wrapper .title{
-    text-align: center;
-}
+    <div class="wrapper" style="margin-top: 30px;">
 
-.team{
-    text-align: center;
-    margin: auto;
-    max-width: 1000px;
-}
-.team h2{
-    color: #6e6c6d;
-    margin-top: 30px;
-}
+        <div class="title">
+          
+            <h4>Our Homessy Team </h4>
+        </div>
 
-.team p{
-    color:#101010;
-    font-size: 20px;
-    margin: auto;
-}
+        <div class="team">
+            <h2 >Meet Our Team</h2>
+             <p>We are a team of dedicated professionals, tech enthusiasts, and service experts committed to making your home care experience smooth and stress-free</p>
+        </div>
 
-.title h4{
-    display: inline-block;
-    padding: 20px;
-    color: #899967;
-    font-size: 50px;
-    font-weight: 600;
-    letter-spacing: 1.2px;
-    word-spacing: 5px;
-    border: 3px solid rgba(146, 150, 148, 0.955);
-    border-radius: 15px;
-    text-transform: uppercase;
-    backdrop-filter: blur(15px);
-    box-shadow: 0 10px 10px rgba(119, 124, 120, 0.889);
-    word-wrap: break-word;
-}
+        <div class="card_Container">
 
-.wrapper .card_Container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 40px 0;
-}
+         
 
-.card_Container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
+            <div class="card">
 
-.card_Container .card {
-    position: relative;
-    width: 250px;
-    height: 350px;
-    margin: 10px;
-    overflow: hidden;
-    box-shadow: 0 30px 30px -20px rgb(122, 146, 123),
-                inset 0 0 0 1000px rgba(113, 130, 122, 0.6);
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+                <div class="imbBx">
+                    <img src="" alt="">
+                </div>
 
-/* Media query for small screens */
-@media screen and (max-width: 768px) {
-    .card_Container {
-        justify-content: center;
-    }
-    
-    .card_Container .card {
-        width: 150px;
-        height:200px;
-    }
-    
-}
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Karteek<br><span></span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        
+                        
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Aswin<br><span>Web Analyst</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        
+                        
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="mee2edii.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Sharmila<br><span>Web Analyst</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        
+                        
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
 
 
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Sowsheel<br><span>Web Analyst</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        
+                        
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Lokesh<br><span>Web Analyst</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Manohar <br><span>Web Analyst</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Sirisha<br><span>Web Analyst</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="prabha.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Prabhavathi Kuniti<br><span>Web Analyst</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="https://prabhakuniti.github.io/myportfolio/"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        <li style="--i: 3">
+                            <a href="https://www.linkedin.com/in/prabhavathi-kuniti-1a8559259/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Vandana <br><span>Web Analyst</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Saranya <br><span>Web Analyst</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        
+                        
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Vandana<br><span>Web Analyst</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        
+                        
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
 
 
+            <div class="card">
 
-.card .imbBx, .imbBx img{
-    width: 100%;
-    height: 100%;
-}
+                <div class="imbBx">
+                    <img src="" alt="">
+                </div>
 
-.card .content{
-    position: absolute;
-    bottom: -160px;
-    width: 100%;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    backdrop-filter: blur(15px);
-    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    transition: bottom 0.5s;
-    transition-delay: 0.65s;
-}
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Jaysri<br><span>Web Analyst</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        
+                        
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
 
-.card:hover .content{
-    bottom: 0;
-    transition-delay: 0s;
-}
+            </div>
 
-.content .contentBx h3{
-    text-transform: uppercase;
-    color: #fff;
-    letter-spacing: 2px;
-    font-weight: 500;
-    font-size: 18px;
-    text-align: center;
-    margin: 20px 0 15px;
-    line-height: 1.1em;
-    transition: 0.5s;
-    transition-delay: 0.6s;
-    opacity: 0;
-    transform: translateY(-20px);
-}
+            <div class="card">
 
-.card:hover .content .contentBx h3{
-    opacity: 1;
-    transform: translateY(0);
-}
+                <div class="imbBx">
+                    <img src="" alt="">
+                </div>
 
-.content .contentBx h3 span{
-    font-size: 12px;
-    font-weight: 300;
-    text-transform: initial;
-}
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Thanu<br><span>UI/UX Designer</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
 
-@media screen and (max-width: 768px) {
-    .content .contentBx h3{
-        font-size: 13px;
+            </div>
 
-    }
+            <div class="card">
 
-}
-   
+                <div class="imbBx">
+                    <img src="./image/pic03.jpg" alt="">
+                </div>
 
-.content .sci{
-    position: relative;
-    bottom: 10px;
-    display: flex;
-}
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Sravanthi<br><span>Front-End Web Developer</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li style="--i: 3">
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
 
-.content .sci li{
-    list-style: none;
-    margin: 0 10px;
-    transform: translateY(40px);
-    transition: 0.5s;
-    opacity: 0;
-    transition-delay: calc(0.2s * var(--i));
-}
+            </div>
 
-.card:hover .content .sci li{
-    transform: translateY(0);
-    opacity: 1;
-}
+      
+        </div>
 
-.content .sci li a{
-    color: #fff;
-    font-size: 24px;
-}
+    </div>
+
+</body>
+</html>
