@@ -98,8 +98,8 @@ body{
 
 @media screen and (max-width: 480px) {
     .card_Container .card {
-        width: 100px;
-        height:80px;/* 1 card per row */
+        width: 40vw;
+        height:100px;/* 1 card per row */
     }
 }
 
